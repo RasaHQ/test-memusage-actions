@@ -1,6 +1,10 @@
 # Test Memory Usage of Custom Actions
 
-Usage:
+### Setup
+
+`pip install -r requirements.txt`
+
+### Usage
 
 Run the test command - with the existing custom action this should take about 3 seconds to complete.
 
