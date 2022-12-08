@@ -65,7 +65,6 @@ def test_for_memory_leak() -> None:
         if memory_timestamp is not None
     ]
 
-    print(results)
     write_results("memory_usage_custom_action", results)
 
     max_memory_usage = max(results, key=lambda memory_time: memory_time[0])[0]
